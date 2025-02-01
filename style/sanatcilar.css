@@ -1,0 +1,103 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    background-color: rgba(92, 94, 203, 0.251);
+    height: 60px;
+    width: 10x;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(157, 13, 157, 0.94);
+}
+
+.menu a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(58, 89, 223, 0.8);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgb(236, 6, 6);
+}
+
+.menu a:hover {
+    background-color: rgba(179, 106, 197, 0.8);
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgb(5, 181, 216);
+}
+
+ 
+ body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/deniz.jpeg);
+    background-size: cover; /*arka plan elemannların tamamını kaplar */
+    background-position: center;
+    background-attachment: fixed;
+ 
+   
+    
+ }
+section {
+    width: 768px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.491);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(68, 22, 91, 0.218); /* alt satıra boşlık vermek */
+    border-radius: 10px;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 23px;
+}
+footer {
+    background-color: #67a7f4ef;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    margin-top: 0;
+  }
+    .iletisim-bilgileri p,
+  .sosyal-medya ul {
+      margin: 10px 0;
+  }
+  
+  .sosyal-medya ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .sosyal-medya ul li {
+      display: inline;
+      margin: 0 10px;
+  }
+  
+  .sosyal-medya ul li a {
+      text-decoration: none;
+      color: #1d2081;
+      transition: color 0.3s;
+  }
+  
+  .sosyal-medya ul li a:hover {
+      color: #007BFF;
+  }
+  p{
+      color:#000000;
+  font-size: 30px;
+  }
+  
+    
